@@ -9,7 +9,7 @@ function playAudio (n) {
 }
 
 function removeTransition(n) {
-    if(n.propertyName !== 'transform') return;
+      if(n.propertyName !== 'transform') return;
     this.classList.remove('playing');
 }
 
@@ -19,4 +19,5 @@ keys.forEach(key => key.addEventListener ('transitionend', removeTransition));
 window.addEventListener('keydown', playAudio);
 
 
-// eventlistener that switches audio file //
+
+
