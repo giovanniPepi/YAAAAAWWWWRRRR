@@ -1,0 +1,52 @@
+html {
+    font-size: 10px;
+    background: url('./img/pexels-rudolf-kirchner-831082.jpg') bottom center;
+    /* credit https://www.pexels.com/photo/gray-castle-under-cloudy-sky-831082/ */
+    background-size: cover;
+  }
+  
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+  
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+ }
+  
+.key {
+    border: .4rem solid #3c2c1a;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .08s ease; /* */ 
+    width: 7rem;
+    text-align: center;
+    color: #f0ed48;
+    background: #08070550;
+    text-shadow: 0 0 .5rem black;
+}
+  
+.playing {
+    transform: scale(10);
+    border-color: rgb(143, 14, 14);
+    box-shadow: 0 0 1rem rgb(143, 14, 14);
+}
+  
+kbd {
+    font-size: 4rem;
+}
+ 
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #f0ed48;
+}
+  
