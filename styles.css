@@ -11,20 +11,38 @@ body,html {
     font-family: sans-serif;
 }
   
-.keys {
+.keys1 {
     display: flex;
     flex: 1;
-    min-height: 100vh;
+    min-height: 33vh;
     align-items: center;
     justify-content: center;
+    flex-wrap:wrap
+ }
+ .keys2 {
+    display: flex;
+    flex: 1;
+    min-height: 33vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap
+ }
+
+ .keys3 {
+    display: flex;
+    flex: 1;
+    min-height: 34vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap
  }
   
 .key {
     border: .4rem solid #3c2c1a;
     border-radius: .5rem;
-    margin: 1rem;
+    margin: 0.8rem;
     font-size: 1.5rem;
-    padding: 1rem .5rem;
+    padding: 1.8rem 1.8rem;
     transition: all .08s ease; /* */ 
     width: 7rem;
     text-align: center;
